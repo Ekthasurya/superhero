@@ -1,0 +1,20 @@
+@keyframes slideInleft{
+    from{
+     transform: translate3d(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.left-side{
+    animation-name: slideInleft ;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite ;
+    animation-direction:alternate-reverse;
+    animation-fill-mode:both;
+    transform: translateX(100px);
+}
+
+
